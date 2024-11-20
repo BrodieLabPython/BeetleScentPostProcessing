@@ -1,0 +1,9 @@
+IDEAS TO IMPROVE SCRIPT:
+
+For Input Files: have users create a text or CSV file with the name of the beetle(s) found in each IDTrackerAI run as well as
+the list of all coordinates for each filter paper polygon. Code will then automatically parse and assign those coordinates to the correct polygon. (one master list?)
+
+Batch process this python code so that we can have an HPC process every beetle at once -> Then make a script that compiles all times into one singular file? 
+
+We can make an alternative script that ANDS three polygons: useful if we don't care which shape a beetle is on, but rather we care time spent on ANY and ALL of the polygons:
+simply add each shape together.
